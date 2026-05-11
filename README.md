@@ -42,3 +42,6 @@
 | `/simple/price` | `GET` | Consulta o valor atual de moedas via ID |
 | `/coins/market` | `GET` | Lista moedas com market cap, volume e preços |  
 | `/coins/{id}` | `GET` | Dados completos de uma moeda |
+
+## 4. Demonstração Rápida
+`curl -X GET "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=brl" -H "x-cg-demo-api-key: API-KEY"`
