@@ -39,8 +39,9 @@
 | Endpoint | Método | Descrição |
 |----------|--------|-----------|
 | `/ping` | `GET` | Verifica status operacional do servidor |
-| `/simple/price` | `GET` | Consulta o valor atual de moedas via ID |
-| `/coins/market` | `GET` | Lista moedas com market cap, volume e preços |  
+| `/global` | `GET` | Dados globais: número de moedas, market cap total e volume. |
+| `/search/trending` | `GET` | Lista as moedas, NFTs e categorias que são tendência no momento |
+| `/coins/markets` | `GET` | Tabela principal com preços, market cap e volume de moedas |
 | `/coins/{id}` | `GET` | Dados completos de uma moeda |
 
 ## 4. Demonstração Rápida
